@@ -1,0 +1,49 @@
+{
+    "name": "figlet-flare",
+    "version": "1.0.0",
+    "description": "Generate fun ASCII art with random colors for your terminal!",
+    "main": "src/bin/index.ts",
+    "type": "module",
+    "scripts": {
+        "dev": "node --loader ts-node/esm src/bin/index.ts",
+        "start": "node dist/bin/index.js",
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format:check": "prettier --check ./src",
+        "format:write": "prettier --write ./src",
+        "lint:check": "eslint .",
+        "lint:fix": "eslint --fix ."
+    },
+    "bin": {
+        "figcolor": "./dist/bin/index.js"
+    },
+    "keywords": [
+        "ASCII",
+        "Random Colors"
+    ],
+    "author": "figlet-flare",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^5.4.1",
+        "figlet": "^1.8.0",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.17.0",
+        "@types/figlet": "^1.7.0",
+        "@types/lodash": "^4.17.13",
+        "@types/node": "^22.10.2",
+        "eslint": "^9.17.0",
+        "eslint-config-prettier": "^9.1.0",
+        "globals": "^15.14.0",
+        "nodemon": "^3.1.9",
+        "prettier": "^3.4.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.2",
+        "typescript-eslint": "^8.18.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/monil80/figlet-flare.git"
+    }
+}
