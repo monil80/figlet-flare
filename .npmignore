@@ -1,4 +1,4 @@
-*.ts
+# *.ts
 *.map
 node_modules
-dist
+# dist

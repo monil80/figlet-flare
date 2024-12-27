@@ -1,6 +1,6 @@
 {
     "name": "figlet-flare",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Generate fun ASCII art with random colors for your terminal!",
     "main": "src/bin/index.ts",
     "type": "module",
