@@ -55,5 +55,8 @@ If you'd like to contribute to this project:
 4. Push your branch and submit a pull request
 
 ## Screenshots
-![Demo](https://github.com/monil80/figlet-flare/figcolor.gif)
+
+## Screenshots
+![Demo](https://github.com/monil80/figlet-flare/blob/main/figcolor.gif)
+
 
